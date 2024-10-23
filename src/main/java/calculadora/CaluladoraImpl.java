@@ -2,12 +2,12 @@ package calculadora;
 
 public class CaluladoraImpl implements Calculadora {
 	
-
-public static void main(String[] args) {
-    System.out.println(calcular(5, '+', 3)); // Imprime: 8
-    System.out.println(calcular(5, '-', 3)); // Imprime: 2
-    System.out.println(calcular(5, '*', 3)); // Imprime: -999 (operador no soportado)
-}
+    // Constructor
+    public Calculadora(int i1, char op, int i2) {
+        this.i1 = i1;
+        this.op = op;
+        this.i2 = i2;
+    }
 	
 	@Override	
 	int calcular(int i1, char op, int i2) {
