@@ -3,7 +3,7 @@ package calculadora;
 public class CaluladoraImpl implements Calculadora {
 	
     // Constructor
-    public Calculadora(int i1, char op, int i2) {
+    public CaluladoraImpl(int i1, char op, int i2) {
         this.i1 = i1;
         this.op = op;
         this.i2 = i2;
