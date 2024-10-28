@@ -11,6 +11,11 @@ pipeline {
         bat 'mvn -B -q package'
       }
     }
+    post {
+      always {
+        junit: 'target/surefire-reports/*.xml'
+      }
+    }
   }
 
 }
