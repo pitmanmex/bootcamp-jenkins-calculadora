@@ -17,8 +17,6 @@ class CaluladoraImplTest {
 	void test_debe_sumar_cuando_se_utiliza_mas() {
 		int resultado = calculadora.calcular(1, '+', 2);
 		Assertions.assertEquals(3, resultado);
-		int resultado = calculadora.calcular(1, '-', 2);
-		Assertions.assertEquals(-1, resultado);
 	}
 
 }
