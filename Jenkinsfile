@@ -32,7 +32,7 @@ pipeline {
         always {
           echo "Siempre se ejecuta"
         }
-        faiure {
+        failure {
           echo "Falló la operación"
         }
         success {
@@ -41,7 +41,7 @@ pipeline {
         aborted {
           echo "abort mission"
         }
-        change {
+        changed {
           echo "cambiado"
         }
         fixed {
