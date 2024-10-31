@@ -28,4 +28,26 @@ pipeline {
     }
   }
 
+        post {
+        always {
+          echo "Siempre"
+        }
+        faiure {
+          echo "Fallo"
+        }
+        success {
+          echo "étsito"
+        }
+        aborted {
+          echo "abort mission"
+        }
+        change {
+          echo "cambio"
+        }
+        fixed {
+          echo "corregido"
+        }
+
+        }
+
 }
