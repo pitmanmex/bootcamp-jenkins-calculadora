@@ -33,10 +33,10 @@ pipeline {
           echo "Siempre se ejecuta"
         }
         failure {
-          echo "Falló la operación"
+          echo "Falla la operación"
         }
         success {
-          echo "étsito"
+          echo "etsito"
         }
         aborted {
           echo "abort mission"
