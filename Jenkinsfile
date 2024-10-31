@@ -30,10 +30,10 @@ pipeline {
 
         post {
         always {
-          echo "Siempre"
+          echo "Siempre se ejecuta"
         }
         faiure {
-          echo "Fallo"
+          echo "Falló la operación"
         }
         success {
           echo "étsito"
@@ -42,10 +42,10 @@ pipeline {
           echo "abort mission"
         }
         change {
-          echo "cambio"
+          echo "cambiado"
         }
         fixed {
-          echo "corregido"
+          echo "corregido y aumentado"
         }
 
         }
