@@ -19,4 +19,11 @@ class CaluladoraImplTest {
 		Assertions.assertEquals(3, resultado);
 	}
 
+	@Test
+	void test_debe_restar_cuando_se_utiliza_mas() {
+		int resultado = calculadora.calcular(3, '-', 2);
+		Assertions.assertEquals(1, resultado);
+	}
+	
+	
 }
